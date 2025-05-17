@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~sudHjICR#lCVKj4sleYBt_VRw5bFPTkx3ZDODQGpe7fvHQYgYsK8' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -25,7 +25,7 @@ global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '254785760507' 
 
 //-----------------[ OWNER NAME ]------------------//
 
@@ -67,7 +67,7 @@ global.mess = {
   success: '> © 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
-  admin: '*You’ll unlock this feature with me as an admin!*', 
+  admin: '*We mzee nieke admin kwanza ndio utumie bot yangu!*', 
   notadmin: '*This feature will work once you become an admin. A way of ensuring order!*' 
 }
 
